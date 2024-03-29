@@ -9,3 +9,5 @@ Set-ExecutionPolicy Unrestricted -Scope Process
 pip install text-generation
 pip install langchain
 pip install langchain-community
+pip install --upgrade --quiet  llama-cpp-python
+pip install langchain_experimental
