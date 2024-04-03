@@ -11,18 +11,8 @@ from langchain_community.vectorstores import Chroma
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
-# from langchain_openai import OpenAIEmbeddings
 from langchain_community.document_loaders import TextLoader
-# import os
-# from dotenv import load_dotenv
-# load_dotenv("var.env")
-
-# os.environ["OPENAI_API_KEY"]
-
-# pip install sentence-transformers
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-# embeddings=OpenAIEmbeddings()
-
 
 # Load PDF files
 loader = TextLoader(r"C:\Users\Dell Precision\Desktop\Llama-Langchain-Module\Module-02\prompt.txt", encoding="utf-8")
