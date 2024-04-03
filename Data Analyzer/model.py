@@ -70,9 +70,6 @@ chain = RetrievalQA.from_chain_type(
 
 print("Chat Assistant \n")
 
-# Initialize an empty list to store dishes
-dishes = []
-
 while True:
     print("\n******************************************************************")
     question = input("User>: ")
